@@ -4,7 +4,7 @@ from datetime import datetime
 
 functions = [nytimes, guardian_us, guardian_world, cnn, bbc, foxnews, forbes, usatoday, apnews, npr]
 
-with open("output.csv", mode="a", newline="", encoding="utf-8") as file:
+with open("headlines.csv", mode="a", newline="", encoding="utf-8") as file:
     writer = csv.writer(file)
 
 
